@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
+import {
+  HashRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 
 const TYPE_COLORS = {
   bug: "B1C12E",
@@ -360,13 +366,15 @@ export default class Pokemon extends Component {
                     <h6 className="float-end">Height:</h6>
                   </div>
                   <div className="col-6">
-                    <h6 className="float-start">{this.state.height} ft.</h6>
+                    <h6 className="float-start">
+                      {this.state.height} <menu type="context"></menu>.
+                    </h6>
                   </div>
                   <div className="col-6">
                     <h6 className="float-end">Weight:</h6>
                   </div>
                   <div className="col-6">
-                    <h6 className="float-start">{this.state.weight} lbs</h6>
+                    <h6 className="float-start">{this.state.weight} kg</h6>
                   </div>
                   <div className="col-6">
                     <h6 className="float-end">Catch Rate:</h6>
