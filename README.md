@@ -4,7 +4,7 @@ This is a fairly simple beginner react project built with create-react-app.
 
 # Installation
 
-The easiest way to view the app is to go the the live website [here](pkdb.vercel.app)
+The easiest way to view the app is to go the the live website [here](https://pkdb.vercel.app)
 
 If you want to view it on your machine, simply clone the repo with
 
