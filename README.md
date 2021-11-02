@@ -10,7 +10,6 @@ If you want to view it on your machine, simply clone the repo with
 
 ```
 git clone https://github.com/PaddyCooper08/pkdb
-
 ```
 
 then do
