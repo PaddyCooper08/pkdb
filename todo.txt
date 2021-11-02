@@ -1,2 +1,0 @@
-For search function do input box for indexnumber then slap on end of url to birng up stats page. 
-Add if hidden ability or not maybe if it's true then add (h) or smth like that.
